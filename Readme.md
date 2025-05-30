@@ -68,11 +68,4 @@ This assistant fetches structured product details like name, description, and pr
 - JSON Parser
 
 
-conda activate C:\Users\KrishnaDasaNuDasi\miniconda3\envs\.agentic_base
-
-streamlit run Assignments_AAI/product_info_assistant_langchain/front_end/streamlit_app.py
-
-
-docker build -t product_info_assistant_langchain .
-docker run -p 8501:8501 --env-file .env product_info_assistant_langchain
 http://localhost:8501
